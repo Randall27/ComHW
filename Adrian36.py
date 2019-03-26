@@ -11,6 +11,6 @@ Y = input (“”)
 Img = plt.imread(x)
 height = img.shape (0)
 width = img.shape(1)
-img2 = img (height//2, hidth//2:) 
+img2 = img (height//2, width//2:) 
 
 Plt.imsave (y, img2)
