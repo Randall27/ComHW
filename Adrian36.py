@@ -5,12 +5,12 @@
 Import matplotlib.pyplot as plt
 Import numpy as np
 
-x= input (“”)
+x = input (“”)
 Y = input (“”)
 
 Img = plt.imread(x)
-Height = img.shape (0)
-Width = img.shape(1)
-Img2 = img (Height//2, Width//2:) 
+height = img.shape (0)
+width = img.shape(1)
+img2 = img (height//2, hidth//2:) 
 
-Plt.imsave (y,img2)
+Plt.imsave (y, img2)
